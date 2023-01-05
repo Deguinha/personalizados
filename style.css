@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: auto;
+    border: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+ body {
+   color: #557571;
+   font-family: "Montserrat",Sans-serif;
+   background-color: rgb(255, 196, 0);
+   font-size: 14px;
+   box-sizing: inherit;
+}
+
+
+ @media (min-width: 360px) {
+   
+   header{
+      background-color: rgb(238, 222, 196);
+      
+   }
+      
+
+   #logo{
+      height: 150px;
+      margin-top: 50px;
+      margin-left: 600px;
+
+   }
+
+   h1{
+      font-size: 40px; 
+      color: rgb(150, 148, 146);
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      height: 30px;
+      margin-top: 5px;
+      margin-left: 580px;
+   }
+
+   #pesquisadeProdutos{ 
+      margin-bottom: 10px;
+      height: 30px;
+      margin-left: 40px;
+   
+   }
+   
+   nav ul li{
+      display: inline;
+      margin-left: 30px;
+   }
+
+   nav{
+      background-color: rgb(255, 196, 0);
+   }
+   ul{
+      padding: 10px;
+      text-align: center;
+      color: rgb(182, 189, 189);
+      font-size: 20px;
+   }
+   p{
+      font-size: 20px; 
+      height: 500px;
+      margin-top: 50px;
+      margin-left: 550px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+   }
+   .exemple{
+
+   }
+   img{
+      height: 150px;
+      margin-top: 50px;
+      margin-left: 60px;
+ }
+
+ footer h1{ 
+      color: #557571;
+      font-size: 20px; 
+      height: 30px;
+      margin-top: 20px;
+      margin-left: 20px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      display: inline;
+ }
+ h2{
+      color: #557571;
+      font-size: 20px; 
+      height: 20px;
+      margin-top: 20px;
+      margin-left: 550px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      display: inline;  
+   }
+   
+
+
+ @media (min-width: 659px) {
+   
+   header{
+      background-color: rgb(238, 222, 196);
+   }
+      
+
+   #logo{
+      height: 150px;
+      margin-top: 50px;
+      margin-left: 600px;
+
+   }
+
+   h1{
+      font-size: 40px; 
+      color: rgb(150, 148, 146);
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      height: 30px;
+      margin-top: 5px;
+      margin-left: 580px;
+   }
+
+   #pesquisadeProdutos{ 
+      margin-bottom: 10px;
+      height: 30px;
+      margin-left: 40px;
+   
+   }
+    
+   nav ul li{
+      display: inline;
+      margin-left: 30px;
+   }
+
+   nav{
+      background-color: rgb(255, 196, 0);
+   }
+   ul{
+      padding: 10px;
+      text-align: center;
+      color: rgb(182, 189, 189);
+      font-size: 20px;
+   }
+   p{
+      font-size: 20px; 
+      height: 500px;
+      margin-top: 50px;
+      margin-left: 550px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+   }
+   .exemple{
+
+   }
+   img{
+      height: 150px;
+      margin-top: 50px;
+      margin-left: 600px;
+ }
+
+ footer h1{ 
+   color: #557571;
+   font-size: 20px; 
+   height: 30px;
+   margin-top: 20px;
+   margin-left: 20px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   display: inline;
+}
+
+h2{
+   color: #557571;
+   font-size: 20px; 
+   height: 20px;
+   margin-top: 20px;
+   margin-left: 550px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   display: inline;  
+}
+
+
+ @media (min-width: 900px) {
+
+   header{
+      background-color: rgb(238, 222, 196);
+   }
+      
+
+   #logo{
+      height: 150px;
+      margin-top: 50px;
+      margin-left: 600px;
+
+   }
+
+   h1{
+      font-size: 40px; 
+      color: rgb(150, 148, 146);
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      height: 30px;
+      margin-top: 5px;
+      margin-left: 580px;
+   }
+
+   #pesquisadeProdutos{ 
+      position: absolute;
+      height: 50px;
+      margin-left: 50px;
+      margin-top: -70px;
+      width: 500;
+   
+   }
+    
+   nav ul li{
+      display: inline;
+      margin-left: 50px;
+   }
+
+   nav{
+      background-color: rgb(255, 196, 0);
+   }
+   ul{
+      padding: 10px;
+      text-align: center;
+      color: rgb(182, 189, 189);
+      font-size: 20px;
+   }
+   p{
+      font-size: 20px; 
+      height: 500px;
+      margin-top: 50px;
+      margin-left: 550px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+   }
+   .exemple{
+
+   }
+   #cartaodevisita{
+      height: 30px;
+      margin-top: 5px;
+      margin-left: 580px;
+   }
+   #kitpapeleira{
+      height: 30px;
+      margin-top: 40px;
+      margin-left: 580px;
+   }
+   footer h1{ 
+      color: #557571;
+      font-size: 20px; 
+      height: 30px;
+      margin-top: 20px;
+      margin-left: 20px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      display: inline;
+ }
+   h2{
+      color: #557571;
+      font-size: 20px; 
+      height: 20px;
+      margin-top: 20px;
+      margin-left: 550px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      display: inline;  
+   }
+
+  
