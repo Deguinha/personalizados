@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    padding: auto;
+    padding: 0;
     border: 0;
     list-style: none;
     box-sizing: border-box;
@@ -8,7 +8,7 @@
  body {
    color: #557571;
    font-family: "Montserrat",Sans-serif;
-   background-color: rgb(255, 196, 0);
+   background-color: rgb(249, 202, 125);
    font-size: 14px;
    box-sizing: inherit;
 }
@@ -17,17 +17,13 @@
  @media (min-width: 360px) {
    
    header{
-      background-color: rgb(238, 222, 196);
+      background-color: rgb(249, 202, 125);
       
    }
-      
+   
+   }   
 
-   #logo{
-      height: 150px;
-      margin-top: 50px;
-      margin-left: 600px;
 
-   }
 
    h1{
       font-size: 40px; 
@@ -67,14 +63,7 @@
       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    
    }
-   .exemple{
 
-   }
-   img{
-      height: 150px;
-      margin-top: 50px;
-      margin-left: 60px;
- }
 
  footer h1{ 
       color: #557571;
@@ -100,16 +89,11 @@
  @media (min-width: 659px) {
    
    header{
-      background-color: rgb(238, 222, 196);
+      background-color: rgb(249, 202, 125);
    }
       
 
-   #logo{
-      height: 150px;
-      margin-top: 50px;
-      margin-left: 600px;
 
-   }
 
    h1{
       font-size: 40px; 
@@ -149,14 +133,7 @@
       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    
    }
-   .exemple{
 
-   }
-   img{
-      height: 150px;
-      margin-top: 50px;
-      margin-left: 600px;
- }
 
  footer h1{ 
    color: #557571;
@@ -180,35 +157,44 @@ h2{
 
 
  @media (min-width: 900px) {
+   body{
+      width: 100vw;
+   }
 
    header{
-      background-color: rgb(238, 222, 196);
-   }
-      
-
-   #logo{
-      height: 150px;
-      margin-top: 50px;
-      margin-left: 600px;
-
+      background-color: rgb(249, 202, 125);
+      width: 98vw;
+      height: 20vh
    }
 
-   h1{
-      font-size: 40px; 
-      color: rgb(150, 148, 146);
-      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   ul li{
+      position: ;
+      display: inline;
       height: 30px;
       margin-top: 5px;
-      margin-left: 580px;
+      margin-left: 100px; 
    }
 
-   #pesquisadeProdutos{ 
+   #posiconamentoImg{
       position: absolute;
+      top: 0vh;
+      left: 42vw;
+   }
+
+   #pesquisadeProdutos{   
       height: 50px;
-      margin-left: 50px;
-      margin-top: -70px;
-      width: 500;
+      width: 100px;
    
+   }
+
+   #menuDois{
+      position: absolute;
+      left: 55vw;
+      top: 10vh;
+   }
+
+   #logo{
+      width: 250px;
    }
     
    nav ul li{
@@ -226,32 +212,49 @@ h2{
       font-size: 20px;
    }
    p{
-      font-size: 20px; 
-      height: 500px;
-      margin-top: 50px;
-      margin-left: 550px;
+      font-size: 25px; 
+      height: 150px;
+      margin-top: 100px;
+      margin-left: 800px;
       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-   
    }
-   .exemple{
-
-   }
+  
    #cartaodevisita{
-      height: 30px;
-      margin-top: 5px;
-      margin-left: 580px;
+      margin: 10px;
+          border: 1px solid #ccc;
+          float: left;
+          width: 300px;
    }
+   #agenda{
+      margin: 10px;
+          border: 1px solid #ccc;
+          float: left;
+          width: 300px;
+   }
+   #kit{
+      margin: 10px;
+          border: 1px solid #ccc;
+          float: left;
+          width: 300px;
+   }
+   #tags{
+      margin: 10px;
+          border: 1px solid #ccc;
+          float: left;
+          width: 300px;
+   }
+
    #kitpapeleira{
-      height: 30px;
-      margin-top: 40px;
-      margin-left: 580px;
+      height: 300px;
+      margin-top: -200px;
+      margin-left: 100px;
    }
    footer h1{ 
       color: #557571;
       font-size: 20px; 
-      height: 30px;
-      margin-top: 20px;
-      margin-left: 20px;
+      height: 300px;
+      margin-top: 50px;
+      margin-left: 50px;
       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
       display: inline;
  }
@@ -259,10 +262,10 @@ h2{
       color: #557571;
       font-size: 20px; 
       height: 20px;
-      margin-top: 20px;
+      margin-top: 100px;
       margin-left: 550px;
       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
       display: inline;  
    }
-
+}
   
